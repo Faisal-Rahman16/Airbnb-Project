@@ -9,6 +9,9 @@ The goal of this project is to gain insights from Airbnb data, including listing
 - **Listings Dataset**: Contains details about each Airbnb listing in Austin, including host information, property characteristics, pricing, availability, and ratings.
 - **Reviews Dataset**: Consists of guest reviews, including review text, date, and reviewer information.
 
+**Data Loading**  
+To facilitate the analysis, the datasets were loaded into SQL Server using python. This process included preparing the data for seamless integration and ensuring the data was organized for efficient querying and analysis.
+
 **Key Analyses**  
 
 - **Top Earning Listings**:  
@@ -31,6 +34,7 @@ The goal of this project is to gain insights from Airbnb data, including listing
 
 **Technologies Used**  
 - **Python**: For data preprocessing, sentiment analysis, and visualizations.
+- **Microsoft SQL-Server Management Studio** : To analysis and interpret data using SQL 
 - **SQL**: For database queries, data transformation, and insights extraction.
 - **Tableau**: Created visualizations to present insights in a user-friendly format.
 - **TextBlob**: Performed sentiment analysis on guest reviews.
